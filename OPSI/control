@@ -1,0 +1,28 @@
+[Package]
+version: 1
+depends: 
+
+[Product]
+type: localboot
+id: ica-keepass
+name: ICA-KeePass
+description: Install the KeePass2 password management application
+advice: 
+version: 2.45
+priority: 0
+licenseRequired: False
+productClasses: 
+setupScript: setup.opsiscript
+uninstallScript: uninstall.opsiscript
+updateScript: 
+alwaysScript: 
+onceScript: 
+customScript: 
+userLoginScript: 
+
+[Changelog]
+ica-keepass (2.45-1) stable; urgency=low
+
+	* initial: created by opsi-setup-detector
+
+ -- opsisetupdetector.exe <info@uib.de>  7/26/2020 14:07:03
